@@ -11,7 +11,6 @@ namespace Day1
     {
         private string encoded_password;
 
-
         public string GetId(int id)
         {
             if (id == 0)
@@ -52,13 +51,11 @@ namespace Day1
             //Make sure there are enough total characters
             if (passwordText.Length < minimumLength)
             {
-                
                 return false;
             }
             //Make sure there are enough total characters
             if (passwordText.Length > maximumLength)
             {
-            
                 return false;
             }
 
@@ -77,7 +74,6 @@ namespace Day1
             //Make sure there are enough digits
             if (digits < minimumNumbers)
             {
-               
                 return false;
             }
 
@@ -88,7 +84,6 @@ namespace Day1
             //Make sure there are enough special characters -- !(a-zA-Z0-9)
             if (specialCharacters < minimumSpecialCharacters)
             {
-               
                 return false;
             }
 
